@@ -4,12 +4,16 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <nav className="navbar">
-            <NavLink to="/music" end>
-                Music
-            </NavLink>
-            <NavLink to="/programming">
-                Programming
-            </NavLink>
+            <div className="nav-item">
+                <NavLink to="/music" end>
+                    Music
+                </NavLink>
+            </div>
+            <div className="nav-item">
+                <NavLink to="/programming">
+                    Programming
+                </NavLink>
+            </div>
         </nav>
     )
 }

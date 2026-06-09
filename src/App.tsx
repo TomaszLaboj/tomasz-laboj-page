@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-     <div>Tomasz Laboj</div>
+     <div>Welcome to my page</div>
+     <div className="page-title">Tomasz Laboj</div>
       <NavBar />
     </>
   )
