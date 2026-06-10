@@ -7,8 +7,8 @@ const Video = ({url}: VideoProps) => {
         <div className="video-frame">
             <div>video</div>
             <iframe
-                width="560"
-                height="315"
+                width="420"
+                height="236.25"
                 src={url}
                 title="YouTube video player"
                 frameBorder="0"
