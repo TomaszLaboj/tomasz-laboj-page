@@ -1,6 +1,11 @@
+import Videos from "./Videos";
+
 const Music = () => {
   return (
-    <div>Music</div>
+    <div>
+      <div>Music</div>
+      <Videos />
+    </div>
   )
 };
 
