@@ -10,7 +10,6 @@ function App() {
      <div>Welcome to my page</div>
      <div className="page-title">Tomasz Laboj</div>
       <NavBar />
-     
     </>
   )
 }
