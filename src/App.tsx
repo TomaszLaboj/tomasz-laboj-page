@@ -19,11 +19,13 @@ const router = createBrowserRouter([
 
 
 function App() {
-  console.log(location.pathname);
   return (
     <>
-     <div>Welcome to my page</div>
+    <div className="header">
+
      <div className="page-title">Tomasz Laboj</div>
+     <div className="welcome-message">Welcome to my page</div>
+    </div>
       <RouterProvider router={router} />
     </>
   )

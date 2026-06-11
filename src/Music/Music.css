@@ -1,0 +1,21 @@
+.videos-title {
+    background: #ffbe0b;
+    font: 2em sans-serif;
+    padding: 1rem;
+}
+
+.one-video {
+    border: 0.4rem solid #007f5f;
+    border-radius: 0.5rem;
+}
+
+.videos {
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #adb5bd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

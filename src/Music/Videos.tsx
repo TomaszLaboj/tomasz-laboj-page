@@ -42,15 +42,16 @@ const Videos = () => {
             name: "brave-new-year",
             url: "https://www.youtube.com/embed/fIqK2raRSPU?si=YAFjbmDe_sNll4lf"
         }
-
-
-        
-
-        
+ 
     ]
     return (
         <div>
-          {videos.map((video) => <Video key={video.name}url={video.url}/>)}   
+            <div className="videos-title">
+                YouTube videos
+            </div>
+            <div className="videos">
+                {videos.map((video) => <Video key={video.name}url={video.url}/>)}   
+            </div>
         </div>
     )
 }
