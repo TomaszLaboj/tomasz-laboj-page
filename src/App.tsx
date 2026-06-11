@@ -4,6 +4,7 @@ import Music from './Music/Music';
 import Programming from './Programming/Programming';
 import RootLayout from './Root';
 import Home from './home/Home';
+import Footer from './footer/Footer';
 
 const router = createBrowserRouter([
   { 
@@ -21,11 +22,12 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-    <div className="header">
-     <div className="page-title">Tomasz Laboj</div>
-     <div className="welcome-message">Welcome to my page</div>
-    </div>
+      <div className="header">
+        <div className="page-title">Tomasz Laboj</div>
+        <div className="welcome-message">Welcome to my page</div>
+      </div>
       <RouterProvider router={router} />
+      <Footer />
     </>
   )
 }
