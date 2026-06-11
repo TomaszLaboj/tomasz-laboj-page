@@ -22,7 +22,6 @@ function App() {
   return (
     <>
     <div className="header">
-
      <div className="page-title">Tomasz Laboj</div>
      <div className="welcome-message">Welcome to my page</div>
     </div>
