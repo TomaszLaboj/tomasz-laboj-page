@@ -29,7 +29,10 @@ const Summary = () => {
                 <li>
                     AI-assisted Tools: <strong>GitHub Copilot, Gemini CLI, Claude Code</strong>
                 </li>
-            </ul> 
+            </ul>
+            <p className="padding-top-1">
+                <a href="https://github.com/TomaszLaboj">My GitHub repo</a>
+            </p>
         </div>
     )
 }
