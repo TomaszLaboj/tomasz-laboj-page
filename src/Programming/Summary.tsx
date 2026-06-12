@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa"
+
 const Summary = () => {
     const navigateToGithub = () => {
         window.open("https://github.com/TomaszLaboj")
@@ -35,7 +37,12 @@ const Summary = () => {
             </ul>
             <div className="padding-top-1 padding-bottom-1">
                 <button className="button-github" onClick={navigateToGithub}>
-                   My GitHub repository
+                    <div className="button-text">
+                        My GitHub repository
+                        <div className="padding-1">
+                            <FaGithub />
+                        </div>
+                    </div>
                 </button>
             </div>
         </div>

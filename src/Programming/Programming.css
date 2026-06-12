@@ -38,3 +38,9 @@
     inset -2px -2px 3px rgb(255 255 255 / 0.6),
     inset 2px 2px 3px rgb(0 0 0 / 0.6);
 }
+
+.button-text {
+    align-items: center;
+    display: flex;
+    gap: 0.2rem;
+}
