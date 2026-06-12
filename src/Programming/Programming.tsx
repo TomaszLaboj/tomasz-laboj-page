@@ -1,6 +1,11 @@
+import Summary from './Summary';
+import './Programming.css';
+
 const Programming = () => {
     return (
-        <div>Programming</div>
+        <div className="programming">
+            <Summary />
+        </div>
     )
 }
 
