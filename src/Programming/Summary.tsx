@@ -1,8 +1,11 @@
 const Summary = () => {
+    const navigateToGithub = () => {
+        window.open("https://github.com/TomaszLaboj")
+    }
     return (
         <div className="text-paragraph">
             <p>
-                I'm a full stack software engineer with experienc in building complex scalable web applications.
+                I'm a full stack software engineer experienced in building complex scalable web applications.
             </p>
             <p className="padding-top-1 padding-bottom-1">
                 My tech stack:
@@ -30,9 +33,11 @@ const Summary = () => {
                     AI-assisted Tools: <strong>GitHub Copilot, Gemini CLI, Claude Code</strong>
                 </li>
             </ul>
-            <p className="padding-top-1">
-                <a href="https://github.com/TomaszLaboj">My GitHub repo</a>
-            </p>
+            <div className="padding-top-1 padding-bottom-1">
+                <button className="button-github" onClick={navigateToGithub}>
+                   My GitHub repository
+                </button>
+            </div>
         </div>
     )
 }
